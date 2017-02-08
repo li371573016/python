@@ -9,6 +9,3 @@ print("width =", w, " height =", h, " area =", area(w, h))
 
 #print('area=',area(6,7))
 
-
-
-int
