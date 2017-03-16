@@ -16,3 +16,4 @@ name = 'lilong'
 age = 28
 print("""my name is %s
 my age is %d""" %(name,age))
+

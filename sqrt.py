@@ -5,7 +5,12 @@ ax² + bx + c = 0
 '''
 import math
 def quadratic(a,b,c):
-	if not isinstance(a,(int,float)) or not isinstance(b,(int,float)) or not isinstance(c,(int,float)):
+#	if not isinstance(a,(int,float)) or not isinstance(b,(int,float)) or not isinstance(c,(int,float)):
+	if not isinstance(a,(int,float)):
+		raise TypeError('Bad operand type')
+	if not isinstance(b,(int,float)):
+		raise TypeError('Bad operand type')
+	if not isinstance(c,(int,float)):
 		raise TypeError('Bad operand type')
 	d = b*b-4*a*c
 	if (a == 0):
